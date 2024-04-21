@@ -187,7 +187,6 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libqtigef \
-    libsn100u_fw \
     libsndmonitor \
     libspkrprot \
     com.qti.sensor.phoenix_gc02m1_depth \
@@ -321,6 +320,7 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     libsdk_sr \
     libsensorslog \
+    libsn100u_fw \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
