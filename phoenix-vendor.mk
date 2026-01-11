@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
+    vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/female_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_bg.png \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/female_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_icon.png \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/golden_front_dc_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_front_dc_cal.bin \
@@ -252,6 +253,7 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.fpc.sm6150 \
     fingerprint.goodix.sm6150 \
+    libFaceDetectpp-0.5.2 \
     libFaceGrade \
     libHalSuperSensorServer \
     libSuperSensor \
@@ -291,6 +293,7 @@ PRODUCT_PACKAGES += \
     libcapiv2svacnn \
     libcapiv2vop \
     libcom.qti.chinodeutils \
+    libfacedet \
     libft2vendor \
     libgf_ca \
     libgf_hal \
